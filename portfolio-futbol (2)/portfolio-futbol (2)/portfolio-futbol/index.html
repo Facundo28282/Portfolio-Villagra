@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio de Fútbol - Picos, Torneos de Barrio y Asados</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">⚽ Fútbol de Barrio</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#presentacion" class="nav-link">Presentación</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="presentacion" class="hero-section">
+            <div class="hero-content">
+                <h1>¡Pasión por el Fútbol de Barrio! ⚽</h1>
+                <h2>Picos, Torneos de Fin de Semana y Tercer Tiempo</h2>
+                <p>Acá comparto mis proyectos informales pensados para organizar los partidos con amigos, contar los goles de la liga amateur y armar los mejores asados pospartido.</p>
+                <a href="#proyectos" class="btn">Ver Proyectos</a>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="section">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="card">
+                <p>Holaa mi nombre es Facundo Villagra soy un fanático del fútbol de fin de semana, de los partidos de 7 contra 7 en cancha sintética y de la mística del torneo amateur. No hay nada más lindo que armar equipos con amigos, discutir quién va al arco y quedarse charlando después del partido.</p>
+                <p>Me gusta crear cositas sencillas y útiles para que organizar los partidos sea más fácil: desde contar quién debe la cancha hasta llevar la tabla de goleadores del torneo del barrio.</p>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section">
+            <h2 class="section-title">Proyectos de Barrio</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>1. Calculadora del Tercer Tiempo y Cancha</h3>
+                    </div>
+                    <div class="project-body">
+                        <p><strong>Descripción:</strong> Una app simple para dividir el costo del alquiler de la cancha, las bebidas y los choripanes entre los que jugaron el pico.</p>
+                        <p><strong>Qué hice:</strong> Armé la calculadora interactiva en JavaScript para calcular cuánto paga cada uno, marcar quién ya transfirió y quién sigue debiendo su parte de la cancha.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsJRrreB7IjBFShSdPaZJtamh8xzsUBQc8imA0Am5ZVw&s=10" >
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>2. Armador de Equipos Parejos (Fútbol 5 y 7)</h3>
+                    </div>
+                    <div class="project-body">
+                        <p><strong>Descripción:</strong> Herramienta para sortear y equilibrar los dos equipos antes del partido según el nivel de juego de cada amigo, evitando que un grupo quede "cargado".</p>
+                        <p><strong>Qué hice:</strong> Diseñé las tarjetas de cada jugador con notas divertidas y creé el botón de sorteo aleatorio para definir quién juega con remera clara y quién con remera oscura.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuMCbM6FiZkJ-N_6x7Ff2PqAx87f6ejRNY6XMoNXc2tJ2iNNlBeCBAA5mL&s=10">
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3>3. Fixture y Goleadores del Torneo Amateur</h3>
+                    </div>
+                    <div class="project-body">
+                        <p><strong>Descripción:</strong> Tabla de posiciones y resumen de fechas para el torneo que jugamos los fines de semana en el club del barrio.</p>
+                        <p><strong>Qué hice:</strong> Maqueté las tablas con CSS responsivo para ver los resultados desde el celular al instante y preparé una sección con la tabla de goleadores y valla menos vencida.</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZBNMForjkV40AJOZukTJT4LPmY-DJbyh1xoEV-1-yMg&s=10">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section">
+            <h2 class="section-title">Habilidades de Cancha y Organización</h2>
+            <div class="skills-grid">
+                <div class="card">
+                    <h3>Para los Partidos</h3>
+                    <ul class="skills-list">
+                        <li><strong>Organización de picos:</strong> Reservar cancha a tiempo y confirmar lista de 10 jugadores.</li>
+                        <li><strong>Arbitraje entre amigos:</strong> Cobrar las faltas claras y calmar los ánimos cuando se pica el partido.</li>
+                        <li><strong>Logística:</strong> Llevar la pelota inflada, los pecheras y el agua fría.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Para el Tercer Tiempo</h3>
+                    <ul class="skills-list">
+                        <li>Puntualidad para el asado o los sanguchitos post-partido.</li>
+                        <li>Buen humor para aguantar las cargadas por las jugadas erradas.</li>
+                        <li>Transparencia con las cuentas de la cancha y las bebidas.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2 class="section-title">¿Sale Partido?</h2>
+            <div class="card text-center">
+                <p>¿Te falta uno para completar el 5 o querés sumar a tu equipo a nuestro torneo?</p>
+                <div class="contact-links">
+                    <a href="https://github.com/Facundo28282/Portfolio" target="_blank" class="btn btn-outline">Mi GitHub</a>
+                    <a href="https://mail.google.com/" class="btn">Mandar Mensaje</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Fútbol de Barrio & Amigos. Hecho con ganas y pasión futbolera.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
